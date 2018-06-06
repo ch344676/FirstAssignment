@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.div1 {
+    width: 400px;
+    height: 250px;    
+    padding: 50px;
+    border: 1px solid #50e0cd;
+    background-color:#50e0cd;
+}
+h4 { 
+text-align:left;
+}
+
+.div2 {width: 300px;
+    height: 120px;    
+    padding-top: 50px;
+    border: 1px solid #000000;
+    background-color:#000000;
+
+    }
+.div3 {width: 300px;
+    height: 40px;    
+    padding-top: 0px;
+    padding-bottom:0px;
+    border: 1px solid #847777;
+    background-color:#847777;
+
+    }
+h3{
+color:black;
+text-align: center;
+font-family: Courier;
+font-weight:light;
+}
+.blinking{
+
+    color:white;
+    font-size:40px;
+    text-shadow: 5px 5px #fcfeff;
+		
+		animation:sample 4s infinite;
+		position:relative;
+		
+		}
+	      @-web-kit-keyframes sample{
+		0%{color:white; left:0px; top:0px;}
+		25%{color:white; left:200px; top:0px;}
+		/*
+
+		50%{color:white; left:200px; top:200px;}
+		75%{color:white; left:0px; top:200px;}
+		100%{color:white; left:0px; top:0px;} */
+		}
+	     @keyframes sample{
+		0%{color:white; left:0px; top:0px;}
+		25%{color:white; left:200px; top:0px;}
+
+/*
+		50%{color:white; left:200px; top:200px;}
+		75%{color:white; left:0px; top:200px;}
+		100%{color:white; left:0px; top:0px;} */
+		
+
+
+}
+.neon{
+font-size: 20px;
+font-family: 'Futura';
+color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+text-align: center;
+padding-top:90px;
+
+animation:sample 4s infinite;
+		position:relative;
+		
+		}
+	      @-web-kit-keyframes sample{
+		0%{color:white; left:0px; top:0px;}
+		25%{color:white; left:200px; top:0px;}
+		/*
+
+		50%{color:white; left:200px; top:200px;}
+		75%{color:white; left:0px; top:200px;}
+		100%{color:white; left:0px; top:0px;} */
+		}
+	     @keyframes sample{
+		0%{color:white; left:0px; top:0px;}
+		25%{color:white; left:200px; top:0px;}
+
+/*
+		50%{color:white; left:200px; top:200px;}
+		75%{color:white; left:0px; top:200px;}
+		100%{color:white; left:0px; top:0px;} */
+		
+
+
+
+
+}
+</style>
+</head>
+<body>
+
+<div class="div1">
+<h4 style="color:#b7b7b7"> . TEXT SHADOWS</h5>
+
+<div class="div2">
+<span class="blinking">3D TEXT</span>
+<br>
+<span class="neon">NEON TEXT</span>
+
+</div>
+<div class="div3">
+<h3> SOME INSET TEXT</h3>
+</div>
+</div>
+
+</body>
+</html>
